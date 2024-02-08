@@ -1,0 +1,102 @@
+ /* Estilos personalizados */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    background: rgb(28,203,246);
+background: radial-gradient(circle, rgba(28,203,246,1) 0%, rgba(230,255,242,1) 99%);
+ }
+
+        /* Estilo para el cuerpo del formulario */
+        .contenido {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para el botón de agregar */
+        .btn-primary {
+            background-color: #3490dc;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Estilo para el contenedor principal */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            
+        }
+
+        /* Estilo para el contenedor secundario */
+        .contenido-secundario {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para la lista de gastos */
+        .list-group {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Estilo para el presupuesto */
+        .presupuesto {
+            margin-top: 20px;
+        }
+
+        /* Estilo para la alerta de presupuesto */
+        .alert-primary {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        
+
+
+        /*****/
+
+        /* Estilo base para el mensaje */
+.alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Estilos para diferentes tipos de alertas */
+.alert-danger {
+    background-color: #f8d7da; /* Color de fondo para alertas de error */
+    border: 1px solid #f5c6cb; /* Borde para alertas de error */
+    color: #721c24; /* Color de texto para alertas de error */
+}
+
+.alert-success {
+    background-color: #d4edda; /* Color de fondo para alertas de éxito */
+    border: 1px solid #c3e6cb; /* Borde para alertas de éxito */
+    color: #155724; /* Color de texto para alertas de éxito */
+}
+
+/* Estilos adicionales, si es necesario */
+.text-center {
+    text-align: center;
+}
+
+
+
+/***/
+.badge {
+    background-color: #007bff;
+    height: 20px;
+    
+}
